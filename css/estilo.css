@@ -221,21 +221,21 @@ main div input{position: absolute;
     height: 50px;
     border-radius: 25px;
     background-color: #C1EB8B; font-size: 18px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold;
-    top: 662px; left: 150px;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    top: 662px; left: 75px;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 .textocard{position: absolute;
     font-size: 16px; color: #C1EB8B; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    top: 580px; left: 150px;
+    top: 580px; left: 75px;
 }
 .portada2{display: flex; flex-direction: row;
     position: static;
     width: 298px;
 height: 140px;
-padding-left: 85px; top: 125px;}
+padding-left: 40px; top: 125px;}
 .portada2 {grid-area: portada2;}
 
 .iframevideo{display: flex; left: 76px; padding-top: 440px; position: static;}
-.mapa{padding-left: 100px;; padding-top: 80px; position: static; width: fit-content; height: fit-content;}
+.mapa{padding-left: 50px;; padding-top: 80px; position: static; width: fit-content; height: fit-content;}
 
 .footerindex{
     position: relative; 
@@ -268,31 +268,31 @@ padding-left: 85px; top: 125px;}
         .Nombre {position: absolute;
             width: 236px;
             height: 28px;
-            left: 124px;
+            left: 75px;
             top: 218px; border-radius: 13px;}
         
         .Apellido {position: absolute;
                 width: 236px;
                 height: 28px;
-                left: 124px;
+                left: 75px;
                 top: 298px; border-radius: 13px;}
         
         .Email {position: absolute;
                     width:236px;
                     height: 28px;
-                    left: 124px;
+                    left: 75px;
                     top: 378px; border-radius: 13px;}
         
         .Comentarios {position: absolute;
                         width: 236px;
                         height: 98px;
-                        left: 124px;
+                        left: 75px;
                         top: 458px; border-radius: 13px;}
         
         .b1 {position: absolute;
             width: 120px;
             height: 40px;
-            left: 154px;
+            left: 75px;
             top: 711px; border: 2px solid #C1EB8B;
             border-radius: 20px; background-color: #2D2724; color: #C1EB8B;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
@@ -303,7 +303,7 @@ padding-left: 85px; top: 125px;}
             font-weight: bold;
             width: 120px;
             height: 40px;
-            left: 300px;
+            left: 240px;
             top: 711px; background: #C1EB8B;
             border-radius: 20px;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}    
@@ -311,25 +311,25 @@ padding-left: 85px; top: 125px;}
         .name {position: absolute;
             width: 129px;
             height: 25px;
-            left: 129px;
+            left: 75px;
             top: 181px; color: #C1EB8B; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
        
             .last {position: absolute;
             width: 129px;
             height: 25px;
-            left: 127px;
+            left: 75px;
             top: 263px; color: #C1EB8B; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
        
             .mail {position: absolute;
             width: 129px;
             height: 25px;
-            left: 127px;
+            left: 75px;
             top: 343px; color: #C1EB8B; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
     
             .comentary {position: absolute;
             width: 129px;
             height: 25px;
-            left: 127px;
+            left: 75px;
             top: 423px; color: #C1EB8B; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
            
             .footercontacto{
