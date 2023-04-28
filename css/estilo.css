@@ -1,6 +1,6 @@
 /* desktop */
 @media (min-width: 1024px) {
-    .grid{        display:grid;
+    .grid{        display: grid;
         grid-template-areas: 
         "headindex"
         "mainindex"
@@ -35,13 +35,18 @@ header .contacto :hover{font-size: 20px; color: #8BC740;}
 
 
 .mainindex {
-    display: flex;
+    display: grid;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-direction: column;
 
 }
 
-.iframevideo{padding-left: 350px; padding-top: 80px;}
-.mapa{padding-left: 328px; padding-top: 80px;}
-.portada2{display: flex; padding-left: 78px; top: 125px;}
+.iframevideo{position: absolute; left: 240px;
+    top: 1220px}
+.mapa{position: absolute; left: 230px;
+    top: 1615px;}
+.portada2{display: flex; position: absolute; left: 67px; top: 236px;}
 .portada2{grid-area: portada2;}
 .inicio {left: 632px;}
 .productos {left: 756px;}
@@ -51,11 +56,11 @@ main div input{position: absolute;
     height: 40px;
     border-radius: 25px;
     background-color: #C1EB8B; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold;
-    top: 580px; left: 600px;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    top: 1016px; left: 668px;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 .textocard{position: absolute;
     font-size: 20px; color: #C1EB8B; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    top: 540px; left: 250px;
+    top: 778px; left: 553px;
 }
 
 
@@ -63,6 +68,7 @@ main div input{position: absolute;
 .footerindex{position: relative;
     display: flex;
     height: 130px;
+    top: 2000px;
     background-color: #2B2A2A;
     justify-content: space-around;
     align-items: center;
@@ -213,33 +219,41 @@ a {flex-direction: row; position: relative; text-decoration: none; color: #C1EB8
     padding: 4px 4px 4px;}
 
 .mainindex{
-    display: flex;
+    display: grid;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 main div input{position: absolute;
-    width: 150px;
-    height: 50px;
+    width: 120px;
+    height: 40px;
     border-radius: 25px;
-    background-color: #C1EB8B; font-size: 18px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold;
-    top: 662px; left: 75px;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    background-color: #C1EB8B; font-size: 15px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold;
+    left: 240px;
+top: 400px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 .textocard{position: absolute;
-    font-size: 16px; color: #C1EB8B; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    top: 580px; left: 75px;
+    font-size: 12px; color: #C1EB8B; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 205px;
+top: 325px;;
 }
 .portada2{display: flex; flex-direction: row;
-    position: static;
+    position: absolute;
     width: 298px;
 height: 140px;
-padding-left: 40px; top: 125px;}
+left: 71px;
+top: 185px;}
 .portada2 {grid-area: portada2;}
 
-.iframevideo{display: flex; left: 76px; padding-top: 440px; position: static;}
-.mapa{padding-left: 50px;; padding-top: 80px; position: static; width: fit-content; height: fit-content;}
+.iframevideo{display: flex; left: auto;
+    top: 490px; left: 76px; position: absolute; width: 95px; height: 180px;}
+.mapa{left: 74px;
+    top: 667px; position: absolute; width: fit-content; height: fit-content;}
 
 .footerindex{
     position: relative; 
-    top: 650px;
+    top: 750px;
     display: flex;
     height: 130px;
     background-color: #2B2A2A;
