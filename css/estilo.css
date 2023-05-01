@@ -249,18 +249,51 @@ border-radius: 25px;
 
 
     }
-    .cardbut2 {
+main .cardbut2 {
         position: absolute;
 width: 120px;
 height: 40px;
 left: 900px;
-top: 400px;
+top: 500px;
 
 background: #C1EB8B;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
     }
-    
+
+    main .cardbut3 {
+        position: absolute;
+width: 120px;
+height: 40px;
+left: 900px;
+top: 900px;
+
+background: #C1EB8B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+    }
+    main .cardbut4 {
+        position: absolute;
+width: 120px;
+height: 40px;
+left: 900px;
+top: 1300px;
+
+background: #C1EB8B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+    }            
+    main .cardbut5 {
+        position: absolute;
+width: 120px;
+height: 40px;
+left: 900px;
+top: 1700px;
+
+background: #C1EB8B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+    }    
 }
 
 
