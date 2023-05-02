@@ -396,7 +396,7 @@ header {
     position: absolute;
 width: 56px;
 height: 53px;
-left: 75px;
+left: 180px;
 top: 6px;
 }
 
@@ -569,7 +569,7 @@ a {flex-direction: row; position: relative; text-decoration: none; color: #C1EB8
                 position: absolute;
             width: 56px;
             height: 53px;
-            left: 75px;
+            left: 180px;
             top: 6px;
             }
   
@@ -583,27 +583,21 @@ a {flex-direction: row; position: relative; text-decoration: none; color: #C1EB8
     .gridproducto{
         display: grid;
         grid-template-areas: 
-        "headerproductos"
+        "headercontacto"
         "mainproducto"
         "footerproducto";
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto  }
 
-        .headerproductos {
-            display: flex;
-            justify-content: space-between;
-            height: 145px;
-            align-items: center;
-            padding: 10px;
-        }
-
-  .logoproducto {display: flex;
-            position: absolute;
-        width: 56px;
-        height: 53px;
-        left: 75px;
-        top: 6px;
-        }
+     .productos {flex-direction: row; position: relative; text-decoration: none; color: #C1EB8B; font-size: 18px; font-weight: bold; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-style: normal;
+            padding: 4px 4px 4px; left: 75px;}
+            .logoproductos {display: flex;
+                position: absolute;
+            width: 56px;
+            height: 53px;
+            left: 180px;
+            top: 6px;
+            }
   .mainproducto {
     display: grid;
     align-items: stretch;
@@ -751,13 +745,42 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
     padding: 15px;
     font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #C1EB8B;
 }
-.contenedor {
-    height: 10px;
-    width: 15px;
-    color: #C1EB8B;
-    top: 50px;
-    left: 25px;
+.facebook {display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 240px;
 }
+.instagram {display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 280px;
+}
+.whatsapp {display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 320px;
+}
+.rrss {display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 80px;
+    font-size: 10px;
+}
+.logofooter {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 20px;
+}
+
 
 
         
