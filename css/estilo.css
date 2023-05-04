@@ -1080,7 +1080,7 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         }  
         .footerherr{
             position: relative; 
-            top: 1200px;
+            top: 1600px;
             display: flex;
             height: 130px;
             background-color: #2B2A2A;
@@ -1095,7 +1095,7 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         width: 319px;
         height: 167px;
         left: 20px;
-        top: 110px;
+        top: 300px;
         background-color: #d9d9d9;
         border-radius: 8px;
         }
@@ -1105,7 +1105,7 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         width: 319px;
         height: 167px;
         left: 20px;
-        top: 310px;
+        top: 500px;
         background-color: #d9d9d9;
         border-radius: 8px;
         }
@@ -1115,7 +1115,7 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         width: 319px;
         height: 167px;
         left: 20px;
-        top: 510px;
+        top: 700px;
         background-color: #d9d9d9;
         border-radius: 8px;
         }
@@ -1125,7 +1125,7 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         width: 319px;
         height: 167px;
         left: 20px;
-        top: 710px;
+        top: 900px;
         background-color: #d9d9d9;
         border-radius: 8px;
         }
@@ -1135,7 +1135,7 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         width: 319px;
         height: 167px;
         left: 20px;
-        top: 910px;
+        top: 1100px;
         background-color: #d9d9d9;
         border-radius: 8px;
         }
@@ -1145,7 +1145,7 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         width: 319px;
         height: 167px;
         left: 20px;
-        top: 1110px;
+        top: 1300px;
         background-color: #d9d9d9;
         border-radius: 8px;
         }
@@ -1154,84 +1154,84 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         width: 169px;
         height: 167px;
         left: 20px;
-        top: 110px;
+        top: 300px;
         }
         .imgcard2 {display: flex;
             position: absolute;
         width: 169px;
         height: 167px;
         left: 20px;
-        top: 310px;
+        top: 500px;
         }
         .imgcard3 {display: flex;
             position: absolute;
         width: 169px;
         height: 167px;
         left: 20px;
-        top: 510px;
+        top: 700px;
         }
         .imgcard4 {display: flex;
             position: absolute;
         width: 169px;
         height: 167px;
         left: 20px;
-        top: 710px;
+        top: 900px;
         }
         .imgcard5 {display: flex;
             position: absolute;
         width: 169px;
         height: 167px;
         left: 20px;
-        top: 910px;
+        top: 1100px;
         }
         .imgcard6 {display: flex;
             position: absolute;
         width: 169px;
         height: 167px;
         left: 20px;
-        top: 1110px;
+        top: 1300px;
         }
         .p1 {
             position: absolute;
             font-size: 15px;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             left: 230px;
-            top: 200px;
+            top: 420px;
         }
         .p2 {
             position: absolute;
             font-size: 15px;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             left: 230px;
-            top: 1200px;
+            top: 620px;
         }
         .p3 {
             position: absolute;
             font-size: 15px;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             left: 230px;
-            top: 400px;
+            top: 820px;
         }
         .p4 {
             position: absolute;
             font-size: 15px;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             left: 230px;
-            top: 600px;
+            top: 1020px;
         }
         .p5 {
             position: absolute;
             font-size: 15px;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             left: 230px;
-            top: 800px;
+            top: 1220px;
         }
         .p6 {
             position: absolute;
             font-size: 15px;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             left: 230px;
-            top: 1000px;
+            top: 1420px;
         }
         .descripcion1 {
             position: absolute;
@@ -1240,7 +1240,7 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
             font-weight: bold;
             color: #2D2724;
             left: 200px;
-            top: 100px;
+            top: 1300px;
         }
         .descripcion2 {
             position: absolute;
@@ -1293,7 +1293,7 @@ top: 900px;;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
             color: #C1EB8B;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             left: 20px;
-            top: 70px;
+            top: 1270px;
         }
         .card2 {
             position: absolute;
